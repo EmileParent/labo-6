@@ -23,5 +23,22 @@
             outline: solid 10px #232a42;
         }
 
+        .imgCarrousel:hover {
+            animation: animImgCarrousel both 0.3s;
+            
+        }
+
+    }
+}
+
+/* Animation CSS */
+
+@keyframes animImgCarrousel {
+    0% {
+        outline: solid 10px #232a42;
+    }
+
+    100% {
+        outline: solid 15px #3f4b75;
     }
 }
