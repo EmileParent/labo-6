@@ -61,9 +61,9 @@
 			if ( is_front_page()):
 		?>
 		<section class="carrousel">
-			<div>1</div>
-			<div>2</div>
-			<div>3</div>
+			<div><a href="#"><img class="imgCarrousel" src="https://www.ccbcmd.edu/~/media/CCBC/Programs%20and%20Courses/Professional%20Development/Computers%20and%20Information%20technology/Images/0822.ashx?la=en" alt="ImgVideo"></a></div>
+			<div><a href="#"><img class="imgCarrousel" src="https://blogs.missouristate.edu/computerscience/files/2018/03/new-computer-lab.jpg" alt="imgJeu"></a></div>
+			<div><a href="#"><img class="imgCarrousel" src="https://www.concordia.ca/content/concordia/en/academics/graduate/computer-science-mcompsc.img.png/1601320399077.jpg" alt="img3D"></a></div>
 		</section>	
 
 		<button id="un">1</button>

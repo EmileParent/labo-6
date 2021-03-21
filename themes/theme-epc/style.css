@@ -1183,10 +1183,12 @@ p {
 ---------------------------------------- */
 .carrousel {
   width: 300vw;
-  height: 20vh;
+  max-height: 40vh;
+  min-height: 100px;
   display: flex;
   transition: transform .5s;
   transform: translateX(0);
+  margin-bottom: 10px;
 }
 
 .carrousel div {
@@ -1196,15 +1198,12 @@ p {
   width: 100vw;
 }
 
-.carrousel div:nth-of-type(1) {
-  background-color: red;
+.carrousel div a {
+  height: 100%;
 }
 
-.carrousel div:nth-of-type(2) {
-  background-color: lime;
-}
-
-.carrousel div:nth-of-type(3) {
-  background-color: blue;
+.carrousel div .imgCarrousel {
+  height: 100%;
+  outline: solid 10px #232a42;
 }
 /*# sourceMappingURL=style.css.map */
