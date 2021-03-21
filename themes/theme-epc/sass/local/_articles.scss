@@ -1,0 +1,37 @@
+.entry-content {
+    text-align: justify;
+    width: 50%;
+    outline: solid 10px #232a42;
+    padding: 25px;
+    margin-left: 10%;
+    margin-top: 4%;
+    margin-bottom: 4%;
+}
+
+.entry-header {
+    margin-left: 10%;
+}
+
+@include tablet {
+    .entry-content {
+        width: 75%;
+    }
+}
+
+@include phone {
+    .entry-content {
+        outline: none;
+        margin: 0;
+        padding: 0;
+        text-align: left;
+        font-size: 0.4rem;
+    }
+
+    .entry-header {
+        margin: 0;
+    }
+
+    footer {
+        margin: 0;
+    }
+}

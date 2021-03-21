@@ -1,0 +1,77 @@
+h1 {
+    font-family: 'Staatliches';
+    color: #232a42;
+}
+
+body{
+    background: rgb(204,204,204);
+    background: linear-gradient(180deg, rgba(204,204,204,1) 0%, rgba(255,255,255,1) 32%, rgba(255,255,255,1) 74%, rgba(204,204,204,1) 100%);
+    height: 100vh;
+    width: 100vw;
+}
+
+body.home {
+   overflow-x: hidden;
+}
+
+.entry-content.home {
+    padding: 0;
+    margin: 0;
+}
+
+.entry-header.home {
+    margin: 0;
+}
+
+.site-title {
+    font-family: $font__site-title;
+    font-weight: bold;
+    font-size: clamp(1.2rem, #{"-0.075rem + 8.333vw"}, 3rem);
+    margin-bottom: 0;
+    max-width: 25%;
+    a{
+        text-decoration: none;
+    }
+}
+
+.site-description{
+    // font-size: 1rem;
+    margin-top: 0;
+    font-family: $font__site-title;
+    font-weight: normal;
+    font-size: clamp(0.5rem, #{"-0.075rem + 8.333vw"}, 2rem);
+}
+
+p {
+    font-size: clamp(0.2rem, #{"-0.075rem + 8.333vw"}, 1.5rem);
+}
+
+.accueil{
+
+    ul{
+        list-style-type: none;
+        font-size: clamp(1.2rem, #{"-0.075rem + 8.333vw"}, 3rem);
+    }
+
+    img{
+        display: block;
+        border-radius: 50%;
+        margin-right: 0;
+    }
+}
+
+/* Animations */
+
+.site-title:hover {
+    animation: titreAnim 0.3s both;
+}
+
+@keyframes titreAnim {
+    0% {
+        transform: translateY(0px);
+    }
+
+    100% {
+        transform: translateY(-10px);
+    }
+}
